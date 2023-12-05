@@ -1,0 +1,141 @@
+.part4 {
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+.sidebar-grid__content {
+  min-width: 0;
+  width: 50%;
+}
+.wp-block-heading {
+  font-size: 32px;
+  text-align: left;
+}
+p {
+  text-align: left;
+
+  padding: 0px;
+}
+.wp-block-heading p {
+  text-align: left;
+}
+.call {
+  font-size: 22px;
+  text-align: left;
+}
+.phone {
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 5px;
+  color: #00a8b6;
+  font-size: 27px;
+  text-align: left;
+}
+.sidebar-right {
+  width: 50%;
+  padding: 15px;
+  margin-left: 20px;
+  margin:auto
+}
+.sidebar-call-phone {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 22px 28px 22px 30px;
+}
+.sidebar-right-bottom {
+  padding: 12px;
+  border: 1px solid #e6e6e6;
+  background-color: #373e3e;
+}
+.h1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 25px;
+  text-align: left;
+}
+.h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 22px;
+  text-align: left;
+}
+.label {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: auto;
+  
+}
+.input {
+  font-weight: 350;
+  line-height: 1.5;
+  line-height: 1.5;
+  padding: 9px 10px;
+  border: 1px solid #e6e6e6;
+  text-align: left;
+  padding-right: 30px;
+  margin-right: 90%;
+  width: 80%;
+  margin: auto;
+}
+.textArea {
+  height: 120px;
+  width: 86%;
+  margin: auto;
+
+}
+.input_select {
+  font-weight: 350;
+  line-height: 1.5;
+  line-height: 1.5;
+  padding: 9px 10px;
+  border: 1px solid #e6e6e6;
+  text-align: left;
+  padding-right: 30px;
+  margin-right: 90%;
+  width: 90%;
+  margin: auto;
+}
+.mid-sidebar-right{
+  width: 70%;
+  margin: auto;
+}
+.btn-showMore{
+  border:none;
+  color:#00a8b6;
+  background-color: #fff;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 21;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .part4 {
+    width: 70%;
+  }
+}
+
+/* Specific styles for mobile */
+@media screen and (max-width: 767px) {
+  .part4 {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .sidebar-right {
+    margin-left: 0;
+  }
+
+  .input, .input_select, .textArea {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .btn-showMore {
+    font-size: 16px;
+  }
+}

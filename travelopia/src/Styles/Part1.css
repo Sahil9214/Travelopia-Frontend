@@ -1,0 +1,26 @@
+.part1 {
+  display: flex;
+  justify-content: space-around;
+ 
+  padding: 8px;
+  flex-wrap: nowrap;
+}
+.div_p {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: var(--font-weight-semi-bold);
+  letter-spacing: 0.75px;
+  margin: 0 10px;
+  text-transform: uppercase;
+  color: var(--color-cool-gray);
+  transition-property: all;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-easing);
+  text-align: center;
+}
+@media screen and (max-width:768px) and (min-width:320px){
+  .part1{
+    flex-direction: coloumn;
+    display: none;
+  }
+}
